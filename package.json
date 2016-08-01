@@ -1,0 +1,33 @@
+{
+  "name": "@stripe/eslint-config-stripe",
+  "version": "1.0.0",
+  "description": "Stripe's ESLint config",
+  "keywords": [
+    "stripe",
+    "javascript",
+    "linter",
+    "eslint"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stripe/javascript-style.git"
+  },
+  "homepage": "https://github.com/stripe/javascript-style",
+  "bugs": {
+    "url": "https://github.com/stripe/javascript-style/issues"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "eslint": "^2.13.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.12.0",
+    "eslint-plugin-jsx-a11y": "^1.5.5",
+    "eslint-plugin-react": "^5.2.2"
+  },
+  "scripts": {
+    "test": "./node_modules/eslint/bin/eslint.js ."
+  },
+  "author": "Stripe, Inc.",
+  "license": "ISC"
+}
