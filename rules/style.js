@@ -1,7 +1,5 @@
 module.exports = {
   rules: {
-    // Require camelCase variable names
-    camelcase: [2, {properties: 'always'}],
     // Allow function expressions to not have names
     'func-names': 0,
     // Require two spaces for indent
