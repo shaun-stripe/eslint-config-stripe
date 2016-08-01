@@ -1,6 +1,6 @@
 {
-  "name": "@stripe/eslint-config-stripe",
-  "version": "1.0.2",
+  "name": "eslint-config-stripe",
+  "version": "1.0.0",
   "description": "Stripe's ESLint config",
   "keywords": [
     "stripe",
@@ -11,11 +11,11 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stripe/javascript-style.git"
+    "url": "git+https://github.com/stripe/eslint-config-stripe.git"
   },
-  "homepage": "https://github.com/stripe/javascript-style",
+  "homepage": "https://github.com/stripe/eslint-config-stripe",
   "bugs": {
-    "url": "https://github.com/stripe/javascript-style/issues"
+    "url": "https://github.com/stripe/eslint-config-stripe/issues"
   },
   "devDependencies": {},
   "dependencies": {
