@@ -24,8 +24,6 @@ module.exports = {
     'react/jsx-pascal-case': 2,
     // Disallow use of dangerous JSX properties
     'react/no-danger': 2,
-    // Disallow usage of deprecated methods
-    'react/no-deprecated': [2, {react: '0.14.0'}],
     // Prevent direct mutation of this.state
     'react/no-direct-mutation-state': 2,
     // Allow multiple component definitions per file
@@ -36,6 +34,8 @@ module.exports = {
     'react/prop-types': 0,
     // Prevent missing React when using JSX
     'react/react-in-jsx-scope': 0,
+    // Deprecated rule
+    'react/require-extension': 0,
     // Require render() methods to return something
     // TODO(danwang): Reenable when this is fixed:
     // https://github.com/yannickcr/eslint-plugin-react/issues/543
