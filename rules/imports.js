@@ -13,6 +13,9 @@ module.exports = {
     'import/imports-first': 2,
     // Ensure named imports correspond to a named export in the remote file
     'import/named': 2,
+    'import/no-extraneous-dependencies': 0,
     'import/no-restricted-paths': 0,
+    'import/no-unresolved': 0,
+    'import/prefer-default-export': 0,
   },
 };
