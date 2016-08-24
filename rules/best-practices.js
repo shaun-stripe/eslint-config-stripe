@@ -3,7 +3,7 @@ module.exports = {
     // Functions can sometimes return values or sometimes not
     'consistent-return': 0,
     // If/else blocks must use curly braces.
-    curly: 2,
+    'curly': 2,
     // Switch statements must have a default case.
     'default-case': 2,
   // Require dot notation for property access unless they are snake_cased.

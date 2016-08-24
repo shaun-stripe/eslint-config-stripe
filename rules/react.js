@@ -26,19 +26,11 @@ module.exports = {
     'react/no-danger': 2,
     // Prevent direct mutation of this.state
     'react/no-direct-mutation-state': 2,
-    // Allow multiple component definitions per file
-    'react/no-multi-comp': 0,
     // Don't require stateless components when possible
     'react/prefer-stateless-function': 0,
     // Don't require prop types
     'react/prop-types': 0,
-    // Prevent missing React when using JSX
-    'react/react-in-jsx-scope': 0,
     // Deprecated rule
     'react/require-extension': 0,
-    // Require render() methods to return something
-    // TODO(danwang): Reenable when this is fixed:
-    // https://github.com/yannickcr/eslint-plugin-react/issues/543
-    'react/require-render-return': 0,
   },
 };

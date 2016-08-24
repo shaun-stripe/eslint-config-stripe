@@ -17,15 +17,11 @@ module.exports = {
     // Disallow padding inside curly braces
     'object-curly-spacing': [2, 'never'],
     // Don't check quotes around property names
-    'quote-props': 0,
+    'quote-props': [2, 'consistent-as-needed'],
     // Use single quotes
     'quotes': [2, 'single'],
     // Disallow spaces before function parens
     'space-before-function-paren': [2, 'never'],
-    // Allow any spacing around infix operators
-    'space-infix-ops': 0,
-    // Allow any spacing around unary operators
-    'space-unary-ops': 0,
     // Require spaces immediately following a comment
     'spaced-comment': [2, 'always'],
     // Disallow spacing in template strings
