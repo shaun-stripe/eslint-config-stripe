@@ -16,8 +16,8 @@ module.exports = {
     'no-underscore-dangle': 0,
     // Disallow padding inside curly braces
     'object-curly-spacing': [2, 'never'],
-    // Don't check quotes around property names
-    'quote-props': [2, 'consistent-as-needed'],
+    // Diallow unnecessary quotes around property names
+    'quote-props': [2, 'as-needed'],
     // Use single quotes
     'quotes': [2, 'single'],
     // Disallow spaces before function parens
