@@ -1,5 +1,7 @@
 module.exports = {
   rules: {
+    // Disallow global event and fdescribe
+    'no-restricted-globals': [2, 'event', 'fdescribe'],
     // Disallow unused variables except in function parameters
     'no-unused-vars': [2, {args: 'none'}],
     // Disallow use before definition

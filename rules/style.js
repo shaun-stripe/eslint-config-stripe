@@ -3,7 +3,7 @@ module.exports = {
     // Allow function expressions to not have names
     'func-names': 0,
     // Require two spaces for indent
-    'indent': [2, 2, {SwitchCase: 1}],
+    indent: [2, 2, {SwitchCase: 1}],
     // Maximum line length
     'max-len': [2, 150],
     // Don't require a capital letter for constructors
@@ -19,7 +19,7 @@ module.exports = {
     // Diallow unnecessary quotes around property names
     'quote-props': [2, 'as-needed'],
     // Use single quotes
-    'quotes': [2, 'single'],
+    quotes: [2, 'single'],
     // Disallow spaces before function parens
     'space-before-function-paren': [2, 'never'],
     // Require spaces immediately following a comment
