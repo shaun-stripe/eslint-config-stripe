@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-stripe",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Stripe's ESLint config",
   "keywords": [
     "stripe",
